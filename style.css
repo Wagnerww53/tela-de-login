@@ -1,0 +1,100 @@
+/* CSS reset */
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* remove a linha dos links */
+a {
+    text-decoration: none;
+}
+ul > li{
+    list-style: none;
+
+}
+
+.container{
+    width: 1200px;
+    height: 690px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login__container{
+    width: 1130px;
+    height: 515px;
+    
+    text-align: center;
+    box-shadow: 0px 0px 4px 4px #FFC700;
+}
+
+.top-content{
+    text-align: center;
+    margin-bottom: 70px
+}
+
+.login a{
+    margin:21.25px;
+}
+
+.cadastro a{
+    margin: 21.25px;
+}
+
+.login-cadastro h1{
+    display: inline-block;
+}
+
+.login-cadastro h1 > a{
+    text-decoration: none;
+    color: inherit
+}
+
+
+
+input{
+    outline: none;
+}
+
+
+.middle-content input:not([type="checkbox"]){
+    width: 50%;
+    height: 42px;
+}
+
+
+
+#email::placeholder{
+    text-align:center;
+}
+
+#password::placeholder{
+    text-align: center;
+}
+
+
+.login-preferences > div{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+
